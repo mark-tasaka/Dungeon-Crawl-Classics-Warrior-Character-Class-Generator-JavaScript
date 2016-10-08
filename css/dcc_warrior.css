@@ -1,0 +1,459 @@
+
+
+body{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#character_sheet{
+	width: 1000px;
+    height: auto;
+	display: block;
+}
+
+#name{
+    position: absolute;
+    top: 145px;
+    left: 110px;
+	font-size: 0.9em;
+}
+
+#occupation{
+    position: absolute;
+    top: 148px;
+    left: 355px;
+	font-size: 0.85em;
+}
+
+
+#alignment{
+    position: absolute;
+    top: 142px;
+    left: 575px;
+	font-size: 1em;
+}
+
+
+#characterClass{
+    position: absolute;
+    top: 240px;
+    left: 110px;
+	font-size: 1.1em;
+	width: 150px;
+}
+
+
+#title{
+    position: absolute;
+    top: 240px;
+    left: 370px;
+	font-size: 1.1em;
+	width: 150px;
+}
+
+#level{
+    position: absolute;
+    top: 223px;
+    left: 610px;
+	font-size: 1.6em;
+}
+
+#luckySign{
+    position: absolute;
+    top: 362px;
+    left: 310px;
+	font-size: 0.9em;
+	width: 200px;
+}
+
+
+#luckySignDescription{
+    position: absolute;
+    top: 1130px;
+    left: 560px;
+	font-size: 0.6em;
+	width: 380px;
+}
+#modifiedArmourClass{
+    position: absolute;
+    top: 380px;
+    left: 106px;
+	font-size: 1.5em;
+}
+
+#baseArmourClass{
+    position: absolute;
+    top: 380px;
+    left: 172px;
+	font-size: 1.5em;
+}
+
+
+#armour{
+    position: absolute;
+    top: 775px;
+    left: 405px;
+	font-size: 0.8em;
+}
+
+#shield{
+    position: absolute;
+    top: 765px;
+    left: 525px;
+	font-size: 0.75em;
+	width: 120px;
+} 
+
+#acBonus{
+    position: absolute;
+    top: 830px;
+    left: 460px;
+	font-size: 0.8em;
+}
+
+
+#checkPen{
+    position: absolute;
+    top: 848px;
+    left: 462px;
+	font-size: 0.8em;
+}
+
+
+#speedPen{
+    position: absolute;
+    top: 830px;
+    left: 610px;
+	font-size: 0.8em;
+}
+
+
+#fumblePen{
+    position: absolute;
+    top: 848px;
+    left: 602px;
+	font-size: 0.8em;
+}
+
+#equipment{
+    position: absolute;
+    top: 936px;
+    left: 77px;
+	font-size: 0.6em;
+	width: 400px;
+}
+
+#ammo{
+    position: absolute;
+    top: 1070px;
+    left: 77px;
+	font-size: 0.6em;
+}
+
+#hitPoints{
+	position: absolute;
+    top: 473px;
+    left: 130px;
+	font-size: 1.5em;
+}
+
+#strength{
+    position:absolute;
+    top: 410px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 410px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+#agility{
+    position:absolute;
+    top: 461px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 461px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+#stamina{
+    position:absolute;
+    top: 512px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 512px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+#personality{
+    position:absolute;
+    top: 562px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 562px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+#intelligence{
+    position:absolute;
+    top: 612px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 612px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 662px;
+    left: 835px;
+	font-size: 1.6em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 662px;
+    left: 910px;
+	font-size: 1.6em;
+}
+
+
+#languages{
+    position: absolute;
+    top: 1086px;
+    left:  575px;
+	font-size: 0.7em;
+	width: 340px;
+}
+
+#luckWeapon{
+    position: absolute;
+    top: 1046px;
+    left:  740px;
+	font-size: 0.7em;
+}
+
+
+#zeroWeapon{
+    position: absolute;
+    top: 1204px;
+    left:  560px;
+	font-size: 0.6em;
+}
+
+#fumbleDie{
+    position: absolute;
+    top: 510px;
+    left:  433px;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 510px;
+    left:  250px;
+}
+
+#critTable{
+    position: absolute;
+    top: 500px;
+    left:  343px;
+	font-family: serif;
+	font-size: 1.6em;
+}
+
+
+#actionDie{
+    position: absolute;
+    top: 628px;
+    left:  105px;
+	font-size: 1.2em;
+}
+
+
+#actionDie2{
+    position: absolute;
+    top: 610px;
+    left:  105px;
+	font-size: .9em;
+}
+
+#actionDie3{
+    position: absolute;
+    top: 615px;
+    left:  88px;
+	font-size: .75em;
+}
+
+#deedDie{
+    position: absolute;
+    top: 628px;
+    left:  265px;
+	font-size: 1.2em;
+}
+
+
+#deedDie2{
+    position: absolute;
+    top: 638px;
+    left:  255px;
+	font-size: 0.9em;
+}
+
+
+#threatRange{
+    position: absolute;
+    top: 628px;
+    left:  398px;
+	font-size: 1.2em;
+}
+
+
+#init{
+    position: absolute;
+    top: 346px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+
+#init2{
+    position: absolute;
+    top: 346px;
+    left:  652px;
+	font-size: 1.3em;
+}
+
+#speed{
+    position: absolute;
+    top: 399px;
+    left:  650px;
+	font-size: 1.6em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 446px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 496px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+
+#ref{
+    position: absolute;
+    top: 566px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+#fort{
+    position: absolute;
+    top: 616px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+#will{
+    position: absolute;
+    top: 666px;
+    left:  652px;
+	font-size: 1.6em;
+}
+
+
+#primaryWeapon{
+    position: absolute;
+    top: 741px;
+    left:  86px;
+	font-size: 0.8em;
+}
+
+#primaryWeaponDamage{
+    position: absolute;
+    top: 737px;
+    left:  266px;
+	font-size: 1em;
+}
+
+#secondaryWeapon{
+    position: absolute;
+    top: 838px;
+    left:  86px;
+	font-size: 0.8em;
+}
+
+#secondaryWeaponDamage{
+    position: absolute;
+    top: 834px;
+    left:  266px;
+	font-size: 1em;
+}
+
+
+#wealth{
+    position: absolute;
+    top: 1174px;
+    left:  100px;
+	font-size: 0.75em;
+	width: 350px;
+}
+
+#wealth2{
+    position: absolute;
+    top: 1164px;
+    left:  80px;
+	font-size: 0.6em;
+	width: 390px;
+}
+
+
+
+#experiencePoints{
+    position: absolute;
+    top: 800px;
+    left:  796px;
+	font-size: 1.5em;
+}
+
+#nextLevel{
+    position: absolute;
+    top: 839px;
+    left:  710px;
+	font-size: 0.6em;
+}
